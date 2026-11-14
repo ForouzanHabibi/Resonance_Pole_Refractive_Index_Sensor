@@ -85,23 +85,6 @@ At $n_e=1.33$, for $m=4$, cylinder $n_c=3$, $R=500$ nm:
 
 These are **simulated benchmark values**, not experimental sensor measurements. Spectral-peak sensitivity is the slope over the entire specified index interval; local pole sensitivity uses the derivative at each index. The FOM is a spectral metric; detection limit also depends on experimental noise and resolution and is not claimed here.
 
-## How to run in VS Code
-
-Python 3.10+ is recommended.
-
-1. Open the folder `Resonance_Pole_Refractive_Index_Sensor` in VS Code.
-2. Open **Terminal → New Terminal**.
-3. Run:
-
-```powershell
-python -m pip install -r requirements.txt
-python run_sensor.py
-python run_design_comparison.py
-python -m unittest discover -s tests -v
-```
-
-All outputs are saved to `outputs/`. The comparative design extension adds figures 06–09 and three CSV files. No Lumerical or COMSOL license is required for this analytical model.
-
 ## Project structure
 
 ```text
