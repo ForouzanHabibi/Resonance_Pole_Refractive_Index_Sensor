@@ -1,0 +1,13 @@
+metric,value,unit
+core_index,3.00,RIU
+radius,500.0,nm
+ambient_RI_min,1.33,RIU
+ambient_RI_max,1.39,RIU
+channel,4,azimuthal m
+pole_sensitivity_linear,119.83597274,nm/RIU
+peak_sensitivity_linear,96.36642708,nm/RIU
+pole_sensitivity_implicit_at_start,118.57907974,nm/RIU
+Q_rad_at_start,32.72003244,-
+FWHM_at_start,48.67429355,nm
+FOM_peak_at_start,1.97982179,RIU^-1
+max_abs_D_of_all_poles,1.156e-15,-
